@@ -1,0 +1,31 @@
+.container-jumbo
+{
+	margin-top: 50px;
+	text-align: justify;
+}
+.jumbotron
+{
+	margin: 15px; 
+	padding: 15px;
+}
+
+.well{
+	margin: 10px; padding: 10px;
+}
+.aboutTheLine .lion
+{
+	text-align: justify;
+}
+
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+#footer
+{
+	color:green;
+	background: #000;
+	padding: 20px;
+}

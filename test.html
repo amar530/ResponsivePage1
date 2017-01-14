@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Animals</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</head>
+<script>
+	$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+</script>
+
+<!-- start the Body -->
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="80">
+<!-- start the navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+		<a href="#" class="navbar-brand"><span><img src="logo.jpg" height="30px" width="30px" class="img-circle"> </span> 
+		</a>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Lion">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		</div>
+		<div class="collapse navbar-collapse" id="Lion">
+			<ul class="nav navbar-nav">
+			<li><a href="#home"><span class="glyphicon glyphicon-home"></span>    HOME</a></li>
+			<li><a href="#lineLife">LION'S LIFE</a></li>
+			<li><a href="#latestNews">LATEST NEWS</a></li>
+			<li><a href="#kinds">KINDS</a></li>
+			<li><a href="#about">ABOUT</a></li>
+				
+			</ul>
+	</div>
+	</div>
+</nav>
+<!-- end the navbar -->
+
+<!-- start the container -->
+<div id="home" class="container container-jumbo">
+
+	<!-- start the jumbotron -->
+	<div class="row jumbotron">
+		<div class="col-sm-8">
+		<h3><b>Lion: </b></h3>
+		<p>The lion (Panthera leo) is one of the big cats in the genus Panthera and a member of the family Felidae. The commonly used term African lion collectively denotes the several subspecies in Africa. With some males exceeding 250 kg (550 lb) in weight,it is the second-largest living cat after the tiger.</p>	
+		</div>
+		<div class="col-sm-4">
+			<img src="pic1.jpg" class="img-responsive img-thumbnail">
+		</div>
+	</div>
+	<!-- end the jumbotron -->
+
+	<!-- start the well row -->
+	<div id="lineLife" class="row">
+		<div class="col-sm-12">
+			<div class="well">
+				<h3>welcome to Lion's life</h3>
+			</div>
+		</div>
+	</div>
+
+	<!-- end the well row -->
+
+	<!-- start the main row -->
+	<div class="row">
+
+		<!-- start the lion life -->
+		<div  class="col-sm-8">
+			<p><img src="pic2.jpg" class="img-responsive img-thumbnail" width="250" align="left" vspace="5" hspace="5" />
+			You may have heard the lion Panthera leo referred to as the “King of the Jungle”—but that’s an ironic name, because lions aren’t found in that dense, tangled type of habitat. They are, however, one of the rulers of grasslands, open woodlands, and scrublands. They may have inhabited other biomes in the past; lions as we know them once thrived in Europe, Asia, India, and Africa. Today, there are two recognized subspecies, Panthera leo leo and Panthera leo melanchaita. There are between 17,000 and 19,000 of the leo subspecies scattered across southern and eastern Africa; there are only about 1,400 of the endangered melanchaita subspecies left, which live in small African populations and one population under human protection in India’s Gir Forest.Compared to other members of the big cat genus Panthera—tigers, leopards, and jaguars—lions stand out both physically and behaviorally. They are the only cat with a tufted tail, as well as the sole feline species to display dramatic sexual dimorphism: regally ruffed males are easily distinguished from sleek females. And, of course, lions are the only cats that live in large social groups. Most people today know that a group of lions is called a pride, but that wasn’t always the case. Although humans shared habitat with these social cats for thousands of years, the first evidence of a name for a group of lions doesn’t show up until the 15th century, and it wasn’t common until the 1930s. Why a “pride”? The official reasoning is lost to the ages, but the sight of a group of lions striding along together does seem to embody the confidence and satisfaction the word conveys.A pride is made up of lionesses (mothers, sisters, and cousins) and their cubs, a few related sub-adult males, and, of course, the reigning adult male. The size of the group can vary depending on location, usually numbering 3 to 30 individuals. In dry areas with less prey, prides are smaller; habitats with more food and water allow for the survival of more members. It isn’t uncommon to come across lions that do not live in prides, though. Called nomads, they range far and wide while following migrating herds of large game. They are generally young males, roaming in pairs or small groups and often related to one another, but female nomads exist, too.Related lionesses, especially the older ones, usually live together. Adult males, however, may only stay with a pride for two to three years. During that time, their main job is to defend the pride’s territory—its pantry, so to speak. The pride spends the day’s hottest hours resting. At nightfall, they disperse: females to hunt, and males to patrol and protect the boundaries of the domain. There are almost always unaffiliated male lions looking to take over a group of females. If the newcomers are able to vanquish the reigning males, they win the pride.The lionesses work together to hunt and rear the cubs. This cooperation streamlines their survival: they get the most from their hard work, increasing the odds of keeping everyone healthy and safe. The division of labor between males and females makes sense, as lionesses are smaller, lighter, more agile, and faster sprinters than males. Hunting as a group increases the odds of a successful hunt; there is a better chance that the lions have food when they need it. While hunting, smaller females typically chase prey toward the center of the group. The larger and heavier lionesses ambush or capture the prey. Lionesses are versatile and can switch jobs, depending on which females are hunting that day and what kind of prey they are stalking.Females—and even males—do sometimes hunt on their own. Generally, this approach yields smaller prey, such as a warthog or Thomson’s gazelle. The big prize, however, takes teamwork. An adult male can eat nearly 90 pounds of meat at a single meal, so bigger prey yields a better return on investment..</p>
+		</div>
+		<!-- end the lion life -->
+
+		<!-- start the lion news -->
+		<div id="latestNews" class="col-sm-4">
+
+			<!-- start the panel -->
+			<div class="panel panel-primary">
+
+				<!-- start the panel-heading -->
+				<div class="panel-heading">
+					<b>Latest news</b>
+				</div>
+				<div class="panel-body">
+				<p><img src="pic3.jpg" class="img-responsive img-thumbnail" width="100" align="left" vspace="3" hspace="3" />
+				Six years ago, an inebriated man had fallen into the enclosure of a lioness at the Delhi zoo, but luckily for him, the lioness spared his life, zoo officials in the national capital said today, after a white tiger mauled a man to death. </p>
+					
+				</div>
+				<div class="panel-body">
+				<p><img src="pic4.jpg" class="img-responsive img-thumbnail" width="100" align="left" vspace="3" hspace="3" />
+				A Colorado boy attacked by a mountain lion near Aspen was improving in a Denver hospital after his mother snatched him from the jaws of the wild cat, his family said today. </p>
+					
+				</div>
+				<div class="panel-body">
+				<p><img src="pic5.jpg" class="img-responsive img-thumbnail" width="100" align="left" vspace="3" hspace="3" />
+				The newlyweds Titus and Drew Ellis were at the MGM Grand in Las Vegas, videotaping the lion habitat when all of a sudden one of the lions lunged at one of the trainers.  A struggle ensued, and the trainer managed to break free with the help of his colleagueWatch the dramatic footage here.</p>	
+				</div>
+				<div class="panel-body">
+				<p><img src="pic6.jpg" class="img-responsive img-thumbnail" width="100" align="left" vspace="3" hspace="3" />
+				Idaho wildlife managers on Monday praised family members who charged a mountain lion and rescued a young girl from the jaws of the animal which was attempting to drag her off for the kill.</p>	
+				</div>
+				<!-- end the panel-heading -->
+
+			</div>
+			<!-- end the panel -->
+		</div>
+		<!-- end the lion news -->
+	</div>
+	<!-- end the main row -->
+
+	<!-- start the kinds row -->
+	<div id="kinds" class="row">
+
+		<!-- start the ist panel -->
+		<div class="col-sm-4">
+			<div class="panel panel-danger">
+				<div class="panel-heading">
+					<a href="https://en.wikipedia.org/wiki/American_lion"><b>American's lion:</b></a>
+				</div>
+				<div class="panel-body bg-success">
+					<p><img src="pic7.jpg" class="img-responsive img-thumbnail">
+					The head-body length of the American lion is estimated to have been 1.6–2.5 m (5 ft 3 in–8 ft 2 in) and it would have stood 1.2 m (3.9 ft) at the shoulder. Thus, it was smaller than its contemporary competitor for prey, the giant short-faced bear, which was the largest carnivoran of North America at the time. The American lion was not as heavily built as the saber-toothed cat,Smilodon populator,which may have weighed up to 400 kg (880 lb).Sorkin (2008) estimated the American lion to weigh roughly 420 kg (930 lb),but a more recent study showed an average weight for males of 256 kg (564 lb) and 351 kg (774 lb) for the largest specimen analyzed.</p>
+				</div>
+			</div>
+		</div>
+		<!-- end the ist panel -->
+
+		<!-- start the 2nd panel -->
+		<div class="col-sm-4">
+			<div class="panel panel-danger">
+				<div class="panel-heading">
+					<a href="https://en.wikipedia.org/wiki/White_Lion"><b>White Lion</b></a>
+				</div>
+				<div class="panel-body bg-success">
+					<p><img src="pic8.jpg" class="img-responsive img-thumbnail">
+					White Lion was a Danish/American rock band that was formed in New York City in 1983 by Danish vocalist Mike Tramp and American guitarist Vito Bratta. Mainly active in the 1980s and early 1990s, releasing their debut album Fight to Survive in 1985. The band achieved success with their No. 8 hit "Wait" and No. 3 hit "When the Children Cry" from their second album, the double platinum selling Pride.[1] The band continued their success with their third album, Big Game which achieved Gold status and their fourth album Mane Attraction which included a supporting tour. White Lion disbanded in 1992 and not long after their first compilation album, The Best of White Lion was released.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- end the 2nd panel -->
+
+		<!-- start the 3rd panel -->
+		<div class="col-sm-4">
+			<div class="panel panel-danger">
+				<div class="panel-heading">
+					<a href="https://en.wikipedia.org/wiki/California_sea_lion"><b>California See Lion</b></a>
+				</div>
+				<div class="panel-body bg-success">
+					<p><img src="pic9.jpg" class="img-responsive img-thumbnail">
+					The California sea lion (Zalophus californianus) is a coastal eared seal native to western North America. It is one of five species of sea lion. Its natural habitat ranges from southeast Alaska to central Mexico, including the Gulf of California. Sea lions are sexually dimorphic, males are larger than females, and have a thicker neck and protruding crest. They mainly haul-out on sandy or rocky beaches, but they also frequent manmade environments such as marinas and wharves. Sea lions feed on a number of species of fish and squid, and are preyed on by orcas and white sharks.California sea lions have a polygynous breeding pattern. From May to August, males establish territories and try to attract females with which to mate. Females are free to move in between territories, and are not coerced by males. Mother by males
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- end the 3rd panel -->
+	</div>
+	<!-- end the kinds row -->
+</div>
+
+<!-- end the container -->
+
+<!-- start the container-fluid -->
+<div id="about" class="container-fluid navbar-default">
+
+	<!-- start the container-fluid row -->
+	<div class="row aboutTheLion">
+
+		<!-- start the ist col -->
+		<div class="col-sm-4 lion">
+			<a href="https://en.wikipedia.org/wiki/Lion"><h1>ABOUT</h1></a>
+			<p>The lion's name,similar in many Romance languages,is derived from the Latin leo,[9] and the Ancient Greek λέων (leon).[10] The Hebrew word לָבִיא (lavi) may also be related.It was one of the species originally described by Linnaeus, who gave it the name Felis leo, in his eighteenth-century work,Systema Naturae. </p>
+		</div>
+		<!-- end the ist col -->
+
+		<!-- start the 2nd col -->
+		<div class="col-sm-4">
+
+			<!-- start the list-group -->
+			<ul class="list-group" style="margin-top: 20px;">
+				<li class="list-group-item"><a href="https://en.wikipedia.org/wiki/Lion"><b>Wikipedia</b></a></li>
+				<li class="list-group-item"><a href="https://www.google.co.in/search?q=news+about+lion&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&ei=76UfWK2aLcukvwS7ro6YCw"><b>News</b></a></li>
+				<li class="list-group-item"><a href="https://www.youtube.com/watch?v=X9p56wSzsPA"><b>Youtube</b></a></li>
+			</ul>
+			<!-- end the list-group -->
+		</div>
+		<!-- end the 2nd col -->
+
+		<!-- start the 3rd col -->
+		<div class="col-sm-4" style="text-align: center;">
+			<img src="pic1.jpg" class="img-circle" style="margin-top: 10px;" width="100"><br/><br/>
+			<a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Lion"> <b> 		Know me on Wikipedia</b> 
+			</a>
+		</div>
+		<!-- end the 3rd col -->
+	</div>
+	<!-- end the container-fluid row -->
+</div>
+<!-- end the container-fluid -->
+
+<!-- start the footer-->
+<footer class="container-fluid text-center" id="footer">
+  	<a href="#myPage" title="To Top">
+    	<span class="glyphicon glyphicon-chevron-up"></span>
+  	</a>
+  	<h3>@Amarjeet</h3>
+  
+</footer>
+<!-- end the footer-->
+
+</body>
+<!-- end the Body -->
+</html>
